@@ -42,7 +42,7 @@ function checkAns(Idx){
        }
     }
     else{
-        h2.innerHTML=`Game over!your score is <b>${level}</b> <br>press any key to start`;
+        h2.innerHTML=`Game over!your score is <b>${level}</b> <br> double click on the screen to start again (DONT CLICK ON BUTTONS)`;
         
         if(`${level}` > highestscore){
             h3.innerText=`Highest score : ${level}` ;
